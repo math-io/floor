@@ -1,6 +1,6 @@
 {
   "name": "math-floor",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Returns the largest integer less than or equal to a given number.",
   "author": {
     "name": "Athan Reines",
