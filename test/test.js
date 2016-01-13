@@ -25,3 +25,15 @@ test( 'the function returns `NaN` if provided a `NaN`', function test( t ) {
 	t.ok( val !== val, 'returns NaN' );
 	t.end();
 });
+
+test( 'the function returns `+infinity` if provided a `+infinity`', function test( t ) {
+	var val = floor( Number.POSITIVE_INFINITY );
+	t.equal( val, Number.POSITIVE_INFINITY, 'returns +infinity' );
+	t.end();
+});
+
+test( 'the function returns `-infinity` if provided a `-infinity`', function test( t ) {
+	var val = floor( Number.NEGATIVE_INFINITY );
+	t.equal( val, Number.NEGATIVE_INFINITY, 'returns -infinity' );
+	t.end();
+});
