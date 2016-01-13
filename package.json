@@ -1,7 +1,7 @@
 {
   "name": "math-floor",
   "version": "1.0.0",
-  "description": "Returns the largest integer less than or equal to a given number.",
+  "description": "Rounds a numeric value toward negative infinity.",
   "author": {
     "name": "Athan Reines",
     "email": "kgryte@gmail.com"

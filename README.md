@@ -2,7 +2,7 @@ Floor
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][build-image]][build-url] [![Coverage Status][coverage-image]][coverage-url] [![Dependencies][dependencies-image]][dependencies-url]
 
-> Returns the largest integer less than or equal to a given number.
+> Rounds a numeric value toward negative infinity.
 
 
 ## Installation
@@ -20,7 +20,7 @@ var floor = require( 'math-floor' );
 
 #### floor( x )
 
-Returns the largest `integer` less than or equal to a given `number`.
+Rounds a `numeric` value toward negative infinity.
 
 ``` javascript
 var val = floor( -4.2 );
